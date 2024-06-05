@@ -69,6 +69,7 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link-studio:after {
   content: "";
@@ -273,6 +274,9 @@ a {
 .team-list {
   display: flex;
   gap: 24px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  border-radius: 0 0 4px 4px;
 }
 .team-item {
   background: #fff;
