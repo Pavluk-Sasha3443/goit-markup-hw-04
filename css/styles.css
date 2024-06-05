@@ -88,7 +88,6 @@ a {
   gap: 40px;
 }
 .header-item {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link {
   font-weight: 500;
@@ -98,6 +97,7 @@ a {
   color: #2e2f42;
   padding: 24px 0;
   display: block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link-studio {
   position: relative;
@@ -373,6 +373,7 @@ a {
 }
 .portfolio-images {
   margin: 0 auto;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .servis-name {
   padding: 32px 16px;
